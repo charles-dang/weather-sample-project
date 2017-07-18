@@ -1,0 +1,6 @@
+application:
+  working_dir: /application
+  command: "npm start"
+  volumes:
+    - ../src:/application/src
+    - ../package.json:/application/package.json

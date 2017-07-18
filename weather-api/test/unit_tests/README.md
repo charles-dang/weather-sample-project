@@ -1,0 +1,1 @@
+Unit tests are white box testing to test each function from code file directly.

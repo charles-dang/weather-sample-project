@@ -1,0 +1,7 @@
+unit:
+  image: weather-app
+  command: "npm test"
+
+integration:
+  image: application
+  command: "npm integration-test"

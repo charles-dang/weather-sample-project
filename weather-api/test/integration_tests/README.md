@@ -1,0 +1,1 @@
+Integration tests are tests that communicate to the application from a remote location.  All paths defined in ../src/routes should be tested here. 

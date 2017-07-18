@@ -1,0 +1,27 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/index.js",
+    "unit-test": "./node_modules/mocha/bin/mocha ./test/unit_tests",
+    "integration-test": "./node_modules/mocha/bin/mocha ./test/integration_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charles-dang/"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/charles-dang/"
+  },
+  "devDependencies": {
+    "mocha": "2.3.3"
+  },
+  "homepage": "https://github.com/charles-dang/",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mocha": "^2.3.3"
+  }
+}

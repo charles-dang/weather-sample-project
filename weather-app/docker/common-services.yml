@@ -1,0 +1,23 @@
+build:
+  image: node:6.10
+  working_dir: /build
+  volumes:
+    - ..:/build
+
+application:
+  image: weather-app
+  working_dir: /application
+  command: "npm start"
+  environment:
+    - APP_PORT=3000
+  ports:
+    - "80:3000"
+  links:
+    - weather-api
+
+weather-api:
+  image: weather-api
+  working_dir: /application
+  command: "npm start"
+  environment:
+    - API_PORT=3000
